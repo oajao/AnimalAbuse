@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aJb-So-Wlo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tell Me More-->
+        <!--Item 2-->
         <scene sceneID="cyl-NE-VTC">
             <objects>
-                <viewController title="Tell Me More" id="Ssv-t5-IkS" sceneMemberID="viewController">
+                <viewController id="Ssv-t5-IkS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1do-yB-676">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,20 +25,80 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information About Animal Abuse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogN-q9-NjX">
+                                <rect key="frame" x="10" y="60" width="395" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ege-Px-udI">
+                                <rect key="frame" x="33" y="171" width="349" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Animal abuse is the intentional hurting or harming of an animal.  Animal abuse can also be classified as a human not being able to care for the animal.  
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Definition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npx-Kr-WA6">
+                                <rect key="frame" x="169" y="142" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HY3-AP-nnk">
+                                <rect key="frame" x="33" y="307" width="349" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text"> - If you spot abuse report it to your local animal control. Make sure to also report things like neglect. 
+ - Volunteer at your local animal shelter or foster animals at your house. Fostering animals at your house temporarily before they get adopte can make more room in shelters. 
+-Support legislative trying to pass animal cruelty laws or tell your parnet/gurdian to vote to pass more animal laws. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Laws/Acts for animal protection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkJ-SW-VOs">
+                                <rect key="frame" x="83" y="546" width="254" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drw-Ll-nSz">
+                                <rect key="frame" x="20" y="277" width="381" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ways That You Can Help Prevent Animal Abuse  
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="otz-30-3pD">
+                                <rect key="frame" x="36" y="576" width="349" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">To ensure protection and fair treatment of animals certain laws and acts have been passed.  One law is called the Animal Welfare Act which was passed in 1966. It’s the only law in the U.S that regulates the treatment of animals in research, exhibition and those who are commercially bred. Another important law passed in the ”28 hour law”.  This requires vehicles transporting animals for slaughter must stop every 28 hours and give the animals food, water and exercise. 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WSa-xU-q53"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tell Me More!" id="Mzc-NE-fzY"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Mzc-NE-fzY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EB9-QL-eGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-884.05797101449286" y="323.4375"/>
         </scene>
-        <!--Home Screen-->
+        <!--Item 1-->
         <scene sceneID="2Jk-zb-sXt">
             <objects>
-                <viewController title="Home Screen" id="v6a-lb-PBe" sceneMemberID="viewController">
+                <viewController id="v6a-lb-PBe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pzT-7O-Zam">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +111,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9v8-8I-MbQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home Screen" id="npa-qf-Ctx"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="npa-qf-Ctx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w37-bd-e4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,36 +137,46 @@
             </objects>
             <point key="canvasLocation" x="-1801" y="-1"/>
         </scene>
-        <!--Bo's Story-->
+        <!--Item-->
         <scene sceneID="l9v-tH-qgd">
             <objects>
-                <viewController title="Bo's Story" id="G79-RE-N8g" sceneMemberID="viewController">
+                <viewController id="G79-RE-N8g" customClass="ViewController" customModule="AnimalAbuse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jp8-lO-Mgh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="s77-fy-73Z">
-                                <rect key="frame" x="110" y="281" width="273" height="246"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bo" translatesAutoresizingMaskIntoConstraints="NO" id="SJi-je-7Qs">
+                                <rect key="frame" x="0.0" y="582" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bo" translatesAutoresizingMaskIntoConstraints="NO" id="LXE-v2-jkX">
-                                <rect key="frame" x="31" y="569" width="193" height="181"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="bBe-43-1f5">
+                                <rect key="frame" x="149" y="212" width="265" height="362"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vu0-dy-2bQ">
+                                <rect key="frame" x="236" y="351" width="90" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="W4D-qK-Lfm"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bo's Story" image="Star" selectedImage="Star" id="6c3-hL-NfS"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="Star" selectedImage="Star" id="6c3-hL-NfS"/>
+                    <connections>
+                        <outlet property="BunnySpeach" destination="Vu0-dy-2bQ" id="jLv-f8-CYV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cR-O9-fgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-884.05797101449286" y="973.66071428571422"/>
         </scene>
-        <!--Save Bo!-->
+        <!--Item-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController title="Save Bo!" id="BV1-FR-VrT" customClass="ViewController" customModule="AnimalAbuse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="AnimalAbuse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -124,7 +194,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Save Bo!" image="diamond " selectedImage="diamond " id="ZKC-gW-Sc3"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="diamond " selectedImage="diamond " id="ZKC-gW-Sc3"/>
                     <connections>
                         <outlet property="sceneView" destination="EO5-fy-WZq" id="YuC-8q-ovz"/>
                     </connections>
