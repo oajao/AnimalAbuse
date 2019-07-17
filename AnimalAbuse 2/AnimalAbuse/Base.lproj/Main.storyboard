@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aJb-So-Wlo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tell Me More-->
+        <scene sceneID="cyl-NE-VTC">
+            <objects>
+                <viewController title="Tell Me More" id="Ssv-t5-IkS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1do-yB-676">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q23-P2-Ubt">
+                                <rect key="frame" x="186" y="100" width="42" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WSa-xU-q53"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tell Me More!" id="Mzc-NE-fzY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EB9-QL-eGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-884.05797101449286" y="323.4375"/>
+        </scene>
+        <!--Home Screen-->
+        <scene sceneID="2Jk-zb-sXt">
+            <objects>
+                <viewController title="Home Screen" id="v6a-lb-PBe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pzT-7O-Zam">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bo" translatesAutoresizingMaskIntoConstraints="NO" id="e2z-HF-l8S">
+                                <rect key="frame" x="47" y="602" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9v8-8I-MbQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home Screen" id="npa-qf-Ctx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w37-bd-e4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-883" y="-325"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="AyF-w0-oH9">
+            <objects>
+                <tabBarController id="aJb-So-Wlo" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U5o-Ay-pdd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="v6a-lb-PBe" kind="relationship" relationship="viewControllers" id="Oq1-kB-llO"/>
+                        <segue destination="Ssv-t5-IkS" kind="relationship" relationship="viewControllers" id="6VL-6V-pIm"/>
+                        <segue destination="G79-RE-N8g" kind="relationship" relationship="viewControllers" id="eAa-UB-lWf"/>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="viewControllers" id="mav-XL-zwl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhP-qs-waI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1801" y="-1"/>
+        </scene>
+        <!--Bo's Story-->
+        <scene sceneID="l9v-tH-qgd">
+            <objects>
+                <viewController title="Bo's Story" id="G79-RE-N8g" customClass="BoViewController" customModule="AnimalAbuse" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jp8-lO-Mgh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="s77-fy-73Z">
+                                <rect key="frame" x="110" y="281" width="273" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bo" translatesAutoresizingMaskIntoConstraints="NO" id="LXE-v2-jkX">
+                                <rect key="frame" x="31" y="569" width="193" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RF7-RZ-Dgr">
+                                <rect key="frame" x="166" y="320" width="168" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivH-dh-j9u">
+                                <rect key="frame" x="337" y="704" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="  next  "/>
+                                <connections>
+                                    <action selector="nextButton:" destination="G79-RE-N8g" eventType="touchUpInside" id="lQd-Kv-7Pf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="W4D-qK-Lfm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bo's Story" image="Star" selectedImage="Star" id="6c3-hL-NfS"/>
+                    <connections>
+                        <outlet property="textBox" destination="RF7-RZ-Dgr" id="gdt-cb-xmd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cR-O9-fgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-884.05797101449286" y="973.66071428571422"/>
+        </scene>
+        <!--Save Bo!-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController title="Save Bo!" id="BV1-FR-VrT" customClass="ViewController" customModule="AnimalAbuse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arskView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EO5-fy-WZq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            </arskView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EO5-fy-WZq" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="EO5-fy-WZq" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="EO5-fy-WZq" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="EO5-fy-WZq" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Save Bo!" image="diamond " selectedImage="diamond " id="ZKC-gW-Sc3"/>
+                    <connections>
+                        <outlet property="sceneView" destination="EO5-fy-WZq" id="YuC-8q-ovz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-884" y="1629"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bo" width="32" height="32"/>
+        <image name="Star" width="30" height="29"/>
+        <image name="bubble" width="144" height="132"/>
+        <image name="diamond " width="30" height="30"/>
+    </resources>
+</document>
