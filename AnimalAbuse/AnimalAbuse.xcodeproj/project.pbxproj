@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DDBB48D22DF7A42007FBB2B /* BoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBB48C22DF7A42007FBB2B /* BoViewController.swift */; };
 		4DEF1DEF22DF619200D4D9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF1DEE22DF619200D4D9F3 /* AppDelegate.swift */; };
 		4DEF1DF122DF619200D4D9F3 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DEF1DF022DF619200D4D9F3 /* Scene.sks */; };
 		4DEF1DF322DF619300D4D9F3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF1DF222DF619300D4D9F3 /* Scene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DDBB48C22DF7A42007FBB2B /* BoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoViewController.swift; sourceTree = "<group>"; };
 		4DEF1DEB22DF619200D4D9F3 /* AnimalAbuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalAbuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEF1DEE22DF619200D4D9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DEF1DF022DF619200D4D9F3 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				4DEF1DF022DF619200D4D9F3 /* Scene.sks */,
 				4DEF1DF222DF619300D4D9F3 /* Scene.swift */,
 				4DEF1DF422DF619300D4D9F3 /* ViewController.swift */,
+				4DDBB48C22DF7A42007FBB2B /* BoViewController.swift */,
 				4DEF1DF622DF619300D4D9F3 /* Main.storyboard */,
 				4DEF1DF922DF619400D4D9F3 /* Assets.xcassets */,
 				4DEF1DFB22DF619400D4D9F3 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEF1DF522DF619300D4D9F3 /* ViewController.swift in Sources */,
+				4DDBB48D22DF7A42007FBB2B /* BoViewController.swift in Sources */,
 				4DEF1DF322DF619300D4D9F3 /* Scene.swift in Sources */,
 				4DEF1DEF22DF619200D4D9F3 /* AppDelegate.swift in Sources */,
 			);

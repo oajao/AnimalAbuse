@@ -14,7 +14,7 @@ class ViewController: UIViewController, ARSKViewDelegate {
     
     @IBOutlet var sceneView: ARSKView!
     
-    @IBOutlet weak var BunnySpeach: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
